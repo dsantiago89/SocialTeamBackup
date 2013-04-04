@@ -27,7 +27,7 @@ http://www.wakanda.org/downloads
 guardar una copia de la solución.
 + Este procedimiento sólo habrá que utilizarlo la primera vez. 
 + Para actualizar el repositorio a partir de este momento hay que utilizar la opción "Pull from GitHub"
-https://github.com/franak/SocialTest1.git
+https://github.com/franak/SocialTeam.git
 
 ##### SIEMPRE, antes de empezar a trabajar con cualquier fichero, utilizar la opción [Git -> Pull from GitHub]
 
@@ -36,5 +36,11 @@ Build a Contacts Management App Using HTML5, JS, CSS3, and Wakanda Studio
 + http://buildmobile.com/build-contacts-app-with-html5-css-javascript-wakanda-studio/
 
 ##Atención:
-Para reparar errores de credenciales en OsX con Wakanda - git:
++ Para reparar errores de credenciales en OsX con Wakanda - git:
 http://stackoverflow.com/questions/14272634/error-git-credential-osxkeychain-died-of-signal-11
+
++ RSS para recibir cambios: 
+http://www.rssapplication.com
+
+La dirección a la que hay que subscribirse es esta:
+https://github.com/franak/SocialTeam/commits/master.atom
