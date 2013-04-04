@@ -1,7 +1,6 @@
 SocialTeam
 ==========
-SocialTest1
-===========
+
 
 Created by studio
 
