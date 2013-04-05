@@ -9,7 +9,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	Alta_Usuario.click = function Alta_Usuario_click (event)// @startlock
 	{// @endlock
-		$('#frame1').fadeIn('slow');
+		$('#frame1').toggle('slow');
 		$$('frame1').load('/user/index-tablet.html');
 		
 	};// @lock
