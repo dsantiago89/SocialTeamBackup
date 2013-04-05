@@ -2,22 +2,25 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
-	var btn_save = {};	// @button
+	var button1 = {};	// @button
 // @endregion// @endlock
 
 // eventHandlers// @lock
 
-	btn_save.click = function btn_save_click (event)// @startlock
+	button1.click = function button1_click (event)// @startlock
 	{// @endlock
-		var usuario = $$('txt_user').getValue();
-		var fullname = $$('txt_fullname').getValue();
-		var password = $$('txt_pass').getValue();
-		var grupo = $$('sl.group').getValue();
+		var objUser  = source.objUser;
+		ds.Usuarios.insertarUsuario(objUser.NombreAcceso, objUser.Password);
 		
-		directoryComponent.addUser
+		var objEntidad = source.objEntidad;
+		ds.Entidades.insertarEntidad(objEntidad.Nombre, objEntidad.Apellido1);
+		
+		alert("usuario: "+objEntidad.Nombre+" registrado");
+		
+	
 	};// @lock
 
 // @region eventManager// @startlock
-	WAF.addListener("btn_save", "click", btn_save.click, "WAF");
+	WAF.addListener("button1", "click", button1.click, "WAF");
 // @endregion
 };// @endlock
