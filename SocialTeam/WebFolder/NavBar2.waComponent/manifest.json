@@ -1,0 +1,6 @@
+﻿{
+    "name"    : "NavBar2",    
+    "html"    : "NavBar2.html",
+    "styles"  : ["NavBar2.css"],
+    "scripts" : ["NavBar2.js"]
+}
