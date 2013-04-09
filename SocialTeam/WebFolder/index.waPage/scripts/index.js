@@ -16,6 +16,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	//	$('#dialog1').fadeIn('slow');
 		$$('dialog1').displayDialog(); 
 		$('#dialog1').attr('data-load','/user/index-tablet.html');
+		//$('#dialog1').refresh();
 		
 		
 	};// @lock
