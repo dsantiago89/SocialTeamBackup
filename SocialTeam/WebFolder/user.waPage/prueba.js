@@ -1,1 +1,1 @@
-﻿ds.Usuarios.all();
+﻿ds.Entidades.all();

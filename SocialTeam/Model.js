@@ -3,13 +3,22 @@ guidedModel =// @startlock
 {
 	Entidades :
 	{
+		NombreCompleto :
+		{
+			onGet:function()
+			{// @endlock
+				return this.Nombre+" "+this.Apellido1+" "+this.Apellido2;
+			}// @startlock
+		},
 		methods :
 		{// @endlock
-			insertarEntidad:function(vNombre, vApellido1)
+			insertarEntidad:function(vNombre, vApellido1, vApellido2)
 			{// @lock
 				new_entidad = new ds.Entidades({
 					Nombre: vNombre,
-					Apellido1: vApellido1
+					Apellido1: vApellido1,
+					Apellido2: vApellido2
+					
 				}).save();				
 			}// @startlock
 		}
